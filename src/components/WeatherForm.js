@@ -5,6 +5,7 @@ import climaIcon from '../assets/climaIcon.png'
 const WeatherForm = props => (
     <div >
         <img src={climaIcon} className="imagen"/>
+        {/* formulario, onSubmit captura el evento */}
         <form onSubmit={props.getWeather}>
             <div className="form-group">
                 <input type="text" name="city" placeholder="Ingrese ciudad" className="form-control" autoFocus/>

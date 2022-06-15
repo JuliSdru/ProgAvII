@@ -15,7 +15,7 @@ export default class Navigation extends Component {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
-                            <Link to="/clima" className="nav-link"> Consultas </Link>
+                            <Link to="/clima" className="nav-link"> Consultar clima </Link>
                             </li>
                         </ul>
                     </div>

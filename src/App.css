@@ -53,6 +53,7 @@
 }
 
 .imagen{
-  left: 30%;
+  position: relative;
+  left: 22%;
   width: 50%;
 }
